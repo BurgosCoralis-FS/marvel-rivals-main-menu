@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@theme {
+  --color-dark: #22222D;
+  --color-yellow: #E4C429;
+  --color-nav: #bdc0d1;
+
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url(/src/assets/fonts/Refrigerator\ Deluxe.otf);
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe Bold';
+    src: url(/src/assets/fonts/Refrigerator\ Deluxe\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe Extra Bold';
+    src: url(/src/assets/fonts/Refrigerator\ Deluxe\ Extrabold.otf);
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe Heavy';
+    src: url(/src/assets/fonts/Refrigerator\ Deluxe\ Heavy.otf);
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe Light';
+    src: url(/src/assets/fonts/Refrigerator\ Deluxe\ Light.otf);
+}

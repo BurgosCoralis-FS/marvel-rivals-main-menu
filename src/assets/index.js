@@ -1,5 +1,7 @@
 //bg
 import marvelRivalsBg from '/src/assets/videos/mrMenu.mp4' 
+import homeBg from '/src/assets/images/home-bg.svg'
+import playBg from '/src/assets/images/play-btn.png'
 
 //logo
 import marvelLogo from '/src/assets/images/logo.ico'
@@ -11,7 +13,7 @@ import settings from '/src/assets/images/settings.svg'
 import messages from '/src/assets/images/messages.svg'
 import friends from '/src/assets/images/friends.svg'
 import notification from '/src/assets/images/notification.svg'
-import profile from '/src/assets/images/profile.svg'
+import profile from '/src/assets/images/profile.png'
 
 export {
     marvelRivalsBg,
@@ -22,5 +24,7 @@ export {
     messages,
     friends,
     notification,
-    profile
+    profile,
+    homeBg,
+    playBg
 }

@@ -10,8 +10,9 @@
 @theme {
   --color-dark: #22222D;
   --color-yellow: #E4C429;
-  --color-nav: #bdc0d1;
+  --color-nav: #bdc0d1; 
   --color-divider: #363543;
+  --color-border: #7476a1;
 
 }
 

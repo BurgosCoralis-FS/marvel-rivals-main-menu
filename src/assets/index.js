@@ -2,6 +2,7 @@
 import marvelRivalsBg from '/src/assets/videos/mrMenu.mp4' 
 import homeBg from '/src/assets/images/home-bg.svg'
 import playBg from '/src/assets/images/play-btn.png'
+import imgBg from '/src/assets/images/img-bg.png'
 
 //logo
 import marvelLogo from '/src/assets/images/logo.ico'
@@ -15,6 +16,10 @@ import friends from '/src/assets/images/friends.svg'
 import notification from '/src/assets/images/notification.svg'
 import profile from '/src/assets/images/profile.png'
 
+//carousel images
+import mrVsMs from '/src/assets/images/mrxms.jpg'
+import bP from '/src/assets/images/battlepass.png'
+
 export {
     marvelRivalsBg,
     marvelLogo,
@@ -26,5 +31,8 @@ export {
     notification,
     profile,
     homeBg,
-    playBg
+    playBg,
+    imgBg,
+    mrVsMs,
+    bP
 }

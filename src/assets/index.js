@@ -23,6 +23,11 @@ import bP from '/src/assets/images/battlepass.png'
 //event 
 import entangledMoments from '/src/assets/images/entangledMoments.png'
 
+//challenges
+import challengesBg from '/src/assets/images/challenges.png'
+import calendar from '/src/assets/images/calendar.svg'
+import clock from '/src/assets/images/clock.svg'
+
 export {
     marvelRivalsBg,
     marvelLogo,
@@ -38,5 +43,8 @@ export {
     imgBg,
     mrVsMs,
     bP,
-    entangledMoments
+    entangledMoments,
+    challengesBg,
+    calendar,
+    clock
 }

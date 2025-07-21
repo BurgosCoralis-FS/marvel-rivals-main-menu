@@ -35,7 +35,7 @@ const Carousel = () => {
             {carouselData.map((item) => (
                 <div
                 key={item.id}
-                className="w-[389px] h-[204px] flex items-end justify-center">
+                className="w-[380px] h-[204px] flex items-end justify-center">
                     <img
                     src={item.image}
                     alt={`Slide ${item.id}`}

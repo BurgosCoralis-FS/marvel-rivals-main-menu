@@ -20,6 +20,9 @@ import profile from '/src/assets/images/profile.png'
 import mrVsMs from '/src/assets/images/mrxms.jpg'
 import bP from '/src/assets/images/battlepass.png'
 
+//event 
+import entangledMoments from '/src/assets/images/entangledMoments.png'
+
 export {
     marvelRivalsBg,
     marvelLogo,
@@ -34,5 +37,6 @@ export {
     playBg,
     imgBg,
     mrVsMs,
-    bP
+    bP,
+    entangledMoments
 }

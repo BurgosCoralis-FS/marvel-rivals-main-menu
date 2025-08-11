@@ -6,6 +6,7 @@ import imgBg from '/src/assets/images/img-bg.png'
 
 //logo
 import marvelLogo from '/src/assets/images/logo.ico'
+import mRLogo from '/src/assets/images/MRlogo.webp'
 
 //nav icons
 import blueCurrency from '/src/assets/images/blue-currency.svg'
@@ -28,6 +29,8 @@ import challengesBg from '/src/assets/images/challenges.png'
 import calendar from '/src/assets/images/calendar.svg'
 import clock from '/src/assets/images/clock.svg'
 
+import leftBtn from '/src/assets/images/leftBtn.svg'
+
 export {
     marvelRivalsBg,
     marvelLogo,
@@ -46,5 +49,7 @@ export {
     entangledMoments,
     challengesBg,
     calendar,
-    clock
+    clock,
+    mRLogo,
+    leftBtn
 }

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { imgBg, mrVsMs, bP } from '../assets'
+import { imgBg, mrVsMs, battlePass } from '../assets'
 
 const carouselData = [
     { id: 1, image: mrVsMs },
-    { id: 2, image: bP },
+    { id: 2, image: battlePass },
 ]
 
 const Carousel = () => {

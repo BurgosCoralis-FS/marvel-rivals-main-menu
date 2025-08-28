@@ -1,5 +1,5 @@
 import { 
-    marvelLogo,
+    logo,
     blueCurrency,
     goldCurrency,
     settings,
@@ -26,7 +26,7 @@ const NavBar = () => {
                 <li className=" w-fit h-fit flex items-center justify-center cursor-pointer">
                     <img src={homeBg} alt="background" className="absolute h-12 z-0" />
                     <div className="relative z-10 flex items-center gap-1 !px-4 ">
-                        <img src={marvelLogo} alt="Marvel Rivals Logo" className="h-14 w-auto" />
+                        <img src={logo} alt="Marvel Rivals Logo" className="h-14 w-auto" />
                         <p>HOME</p>
                     </div>
                 </li>

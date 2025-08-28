@@ -6,7 +6,7 @@ import imgBg from '/src/assets/images/img-bg.png'
 
 //logo
 import marvelLogo from '/src/assets/images/logo.ico'
-import mRLogo from '/src/assets/images/MRlogo.webp'
+import mrLogo from '/src/assets/images/MRlogo.webp'
 
 //nav icons
 import blueCurrency from '/src/assets/images/blue-currency.svg'
@@ -51,7 +51,7 @@ export {
     challengesBg,
     calendar,
     clock,
-    mRLogo,
+    mrLogo,
     leftBtn,
     chat
 }

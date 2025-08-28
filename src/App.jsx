@@ -4,7 +4,7 @@ import Carousel from './components/Carousel'
 import Challenges from './components/Challenges'
 import Event from './components/Event'
 import NavBar from './components/NavBar'
-import { leftBtn, mRLogo, chat } from './assets'
+import { leftBtn, mrLogo, chat } from './assets'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Carousel />
           <img src={leftBtn} alt='Left chevron button' />
         </div>
-        <img src={mRLogo} alt='Marvel Rivals Logo' className='w-[255px] h-[108px] !mr-10' />
+        <img src={mrLogo} alt='Marvel Rivals Logo' className='w-[255px] h-[108px] !mr-10' />
       </div>
       
       <Event />

@@ -30,6 +30,7 @@ import calendar from '/src/assets/images/calendar.svg'
 import clock from '/src/assets/images/clock.svg'
 
 import leftBtn from '/src/assets/images/leftBtn.svg'
+import chat from '/src/assets/images/chat.png'
 
 export {
     marvelRivalsBg,
@@ -51,5 +52,6 @@ export {
     calendar,
     clock,
     mRLogo,
-    leftBtn
+    leftBtn,
+    chat
 }

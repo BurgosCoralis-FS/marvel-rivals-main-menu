@@ -20,7 +20,7 @@
 - TailwindCSS
 
 ## Screenshots
-![homescreen](/src/assets/images/MRMenu.png)
+![homescreen](/src/assets/images/mrMenu.png)
 
 
 ## Setup

@@ -6,7 +6,7 @@ import imgBg from './images/img-bg.png'
 
 //logo
 import marvelLogo from './images/logo.ico'
-import mrLogo from './images/MRlogo.webp'
+import mrLogo from './images/mrLogo.webp'
 
 //nav icons
 import blueCurrency from './images/blue-currency.svg'

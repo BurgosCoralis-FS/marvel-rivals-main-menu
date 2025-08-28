@@ -1,7 +1,7 @@
 # Marvel Rivals Main Menu Recreation
 ### Coralis Burgos 
 
-# Coca Cora
+# Marvel Rivals Season 0 Menu
 > Live demo [_here_](). 
 
 ## Table of Contents

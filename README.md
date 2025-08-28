@@ -1,12 +1,36 @@
-# React + Vite
+# Marvel Rivals Main Menu Recreation
+### Coralis Burgos 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Coca Cora
+> Live demo [_here_](). 
 
-Currently, two official plugins are available:
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Project Status](#project-status)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## General Information
+- This is a recreation of Marvel Rival's Season 0 main menu by using React and TailwindCSS.
 
-## Expanding the ESLint configuration
+## Technologies Used
+- Vite
+- React
+- TailwindCSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+![homescreen](/src/assets/images/MRMenu.png)
+
+
+## Setup
+
+```bash
+# install dependencies
+$ npm i
+# run app
+$ npm run dev
+```
+
+## Project Status
+Project is: _in progress_ 

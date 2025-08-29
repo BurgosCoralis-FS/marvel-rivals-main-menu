@@ -33,7 +33,7 @@ const NavBar = () => {
 
                 <li className=" w-fit h-fit flex items-center justify-center cursor-pointer">
                     <img src={playBg} alt="button background" className="absolute h-12 z-0" />
-                    <div className="relative z-10 !px-3 text-white">
+                    <div className="relative z-10 !px-2 text-white">
                         <p style={{ fontFamily: 'Refrigerator Deluxe Extra Bold'}}>PLAY</p>
                     </div>
                 </li>

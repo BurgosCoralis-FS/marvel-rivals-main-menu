@@ -2,10 +2,10 @@ import { calendar, challengesBg, clock } from "../assets"
 
 const Challenges = () => {
     return (
-        <div className="relative w-[396px] h-[121px] !ml-[-7px]">
-            <img src={challengesBg} alt="Challenges background" className="absolute inset-0 w-full h-full z-0"/>
+        <div className="relative w-[396px] h-[121px] !ml-[-7px] z-[-1]">
+            <img src={challengesBg} alt="Challenges background" className="absolute inset-0 w-full h-full"/>
 
-            <div className="absolute inset-0 z-10 flex items-center justify-around !px-6">
+            <div className="absolute inset-0 flex items-center justify-around !px-6">
                 <div className="flex items-center gap-2">
                     <img src={clock} alt="dailies icon" />
 

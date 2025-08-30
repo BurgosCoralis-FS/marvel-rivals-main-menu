@@ -20,7 +20,7 @@ const Carousel = () => {
 
     return (
         <div
-        className="relative w-[389px] h-[204px] overflow-hidden"
+        className="relative w-[389px] h-[204px] overflow-hidden z-[-1]"
         style={{
             backgroundImage: `url(${imgBg})`,
             backgroundSize: 'cover',
@@ -49,7 +49,7 @@ const Carousel = () => {
         <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className="absolute  right-2 z-10 p-1"
+            className="absolute  right-2 p-1"
             style={{ top: `${88 + index * 15}px` }}>
             <div
             className={`w-[3px] h-3 transition-colors duration-300 ${

@@ -26,7 +26,7 @@ const NavBar = () => {
         opacity-[.95] 
         static 
         text-base
-        md:text-lg
+        lg:text-lg
         !px-[2%]">
             {/* hamburger menu */}
             <button 
@@ -74,23 +74,23 @@ const NavBar = () => {
             </div>
 
             {/* Desktop View Left Side */}
-            <ul className="flex items-center list-none gap-6 md:gap-12 text-nav">
-                <li className=" w-fit h-fit hidden md:flex items-center justify-center ">
+            <ul className="flex items-center list-none gap-6 lg:gap-12 text-nav">
+                <li className=" w-fit h-fit hidden md:flex items-center justify-center">
                     <img src={homeBg} alt="background" className="absolute h-12 z-0" />
-                    <div className="relative z-10 flex items-center gap-1 !px-2 md:!px-4 ">
-                        <img src={logo} alt="Marvel Rivals Logo" className="h-10 md:h-14 w-auto" />
-                        <p className="hidden sm:block">HOME</p>
+                    <div className="relative z-10 flex items-center gap-1  lg:!px-4 ">
+                        <img src={logo} alt="Marvel Rivals Logo" className="h-8 lg:h-14 w-auto" />
+                        <p className="hidden md:block">HOME</p>
                     </div>
                 </li>
 
-                <li className=" w-fit h-fit hidden md:flex items-center justify-center">
+                <li className="w-[160px] h-fit hidden md:flex items-center justify-center">
                     <img src={playBg} alt="button background" className="absolute h-12 z-0 " />
                     <div className="relative z-10 !px-2 text-white">
                         <p style={{ fontFamily: 'Refrigerator Deluxe Extra Bold'}}>PLAY</p>
                     </div>
                 </li>
 
-                <li className="hidden md:flex items-center gap-1 !pl-4">
+                <li className="hidden md:flex items-center gap-1 lg:!pl-4">
                     SEASON
                     <span className="relative top-[-6px]">
                         <img src={notification} alt="notification" className="h-5 w-4" />
@@ -119,25 +119,25 @@ const NavBar = () => {
 
             {/* right side */}
             <ul className="flex items-center list-none text-nav">
-                <li className="hidden md:flex gap-4 md:gap-9 ">
+                <li className="hidden lg:flex gap-4 lg:gap-9 ">
                     <img src={goldCurrency} alt='Gold Currency icon' />
-                    <p className="text-sm md:text-base"> 0 </p>
+                    <p className="text-sm lg:text-base"> 0 </p>
                     <img src={blueCurrency} alt='Blue Currency icon' />
-                    <p className="text-sm md:text-base"> 0 </p>
+                    <p className="text-sm lg:text-base"> 0 </p>
                 </li>
 
-                <div className="hidden md:block w-px h-6 !mx-3 md:!mx-6 rotate-[20deg] bg-divider" />
+                <div className="hidden lg:block w-px h-6 !mx-3 lg:!mx-6 rotate-[20deg] bg-divider" />
 
-                <li className="hidden md:flex gap-6 md:gap-9">
+                <li className="hidden lg:flex gap-6 lg:gap-9">
                     <img src={settings} alt='settings icon' className="w-4.5" />
                     <img src={messages} alt='messages icon' className="w-4.5" />
                     <img src={friends} alt='friends icon' className="w-4.5" />
                 </li>
 
-                <div className="hidden md:block w-px h-6 !mx-3 md:!mx-6 rotate-[20deg] bg-divider" />
+                <div className="hidden lg:block w-px h-6 !mx-3 lg:!mx-6 rotate-[20deg] bg-divider" />
 
-                <li className="h-15 hidden md:flex items-end">
-                    <img src={profile} alt="player profile icon" className="h-10 md:h-12.5 w-auto object-cover" />
+                <li className="h-15 hidden lg:flex items-end">
+                    <img src={profile} alt="player profile icon" className="h-10 lg:h-12.5 w-auto object-cover" />
                 </li>
             </ul>
         </nav>

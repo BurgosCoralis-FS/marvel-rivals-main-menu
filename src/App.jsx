@@ -20,13 +20,13 @@ function App() {
             <Carousel />
             <img src={leftBtn} alt='Left chevron button' />
           </div>
-          <img src={mrLogo} alt='Marvel Rivals Logo' className='w-[255px] h-[108px] !mr-10' />
+          <img src={mrLogo} alt='Marvel Rivals Logo' className='w-[200px] h-[90px] lg:w-[255px] lg:h-[108px] !mr-10' />
         </div>
         
         <Event />
         <Challenges />
       </div>
-      
+
       <Chat />
       <Uid />
     </div>

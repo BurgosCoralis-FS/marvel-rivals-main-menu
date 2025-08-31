@@ -33,10 +33,6 @@ nav{
   background-color: #22222D;
 }
 
-.custom-cursor {
-  cursor: url('./assets/images/cursor.png'), auto;
-}
-
 @keyframes flash {
   0% {
     background-color: transparent;

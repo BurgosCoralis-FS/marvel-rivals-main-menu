@@ -13,7 +13,7 @@ function App() {
     const [isOpen, setIsOpen] = useState(true)
 
     return (
-        <div className='custom-cursor'>
+        <>
             <Bg />
             <NavBar />
             <div className='!m-1 md:!m-4 flex flex-col'>
@@ -32,7 +32,7 @@ function App() {
             </div>
             <Chat />
             <Uid />
-        </div>
+        </>
     )
 }
 

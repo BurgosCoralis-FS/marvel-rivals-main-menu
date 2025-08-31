@@ -38,16 +38,16 @@ const Carousel = () => {
                     // bg
                     <div
                     key={item.id}
-                    className="w-[235px] h-[110px] md:w-[380px] md:h-[204px] flex items-end justify-start">
+                    className="w-[240px] h-[110px] md:w-[380px] md:h-[204px] flex items-end justify-start">
                         {/* image */}
                         <img
                         src={item.image}
                         alt={`Slide ${item.id}`}
-                        className="w-[210px] h-[106px] md:w-[385px] md:h-[196px] object-cover border border-border"/>
+                        className="w-[235px] h-[106px] md:w-[385px] md:h-[196px] object-cover border border-border"/>
                     </div> ))}
             </div>
 
-            <div className="absolute right-1 md:right-4 top-1/2 -translate-y-1/2 flex flex-col gap-0.5">
+            <div className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 flex flex-col gap-0.5">
                 {carouselData.map((_, index) => (
                     <button
                     key={index}

@@ -32,3 +32,19 @@ nav{
   background: url(https://www.transparenttextures.com/patterns/asfalt-dark.png);
   background-color: #22222D;
 }
+
+@keyframes flash {
+  0% {
+    background-color: transparent;
+  }
+  50%{
+    background-color: #656a84;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.flash {
+  animation: flash 1s infinite;
+}

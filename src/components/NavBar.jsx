@@ -77,20 +77,20 @@ const NavBar = () => {
             <ul className="flex items-center list-none gap-6 lg:gap-12 text-nav">
                 <li className="w-fit h-fit hidden md:flex items-center justify-center">
                     <img src={homeBg} alt="background" className="absolute h-12 z-0" />
-                    <div className="relative z-10 flex items-center gap-1  lg:!px-4 ">
+                    <div className="relative z-10 flex items-center gap-1  lg:!px-12 ">
                         <img src={logo} alt="Marvel Rivals Logo" className="h-8 lg:h-14 w-auto" />
                         <p className="hidden md:block">HOME</p>
                     </div>
                 </li>
 
-                <li className="w-[160px] h-fit hidden md:flex items-center justify-center">
+                <li className="w-[160px] h-fit hidden md:flex items-center justify-center lg:!ml-[-9.3%]">
                     <img src={playBg} alt="button background" className="absolute h-12 z-0 " />
                     <div className="relative z-10 !px-2 text-white">
                         <p style={{ fontFamily: 'Refrigerator Deluxe Extra Bold'}}>PLAY</p>
                     </div>
                 </li>
 
-                <li className="hidden md:flex items-center gap-1 lg:!pl-4">
+                <li className="hidden md:flex items-center gap-1 lg:!ml-[-2%]">
                     SEASON
                     <span className="relative top-[-6px]">
                         <img src={notification} alt="notification" className="h-5 w-4" />

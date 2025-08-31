@@ -75,7 +75,7 @@ const NavBar = () => {
 
             {/* Desktop View Left Side */}
             <ul className="flex items-center list-none gap-6 lg:gap-12 text-nav">
-                <li className=" w-fit h-fit hidden md:flex items-center justify-center">
+                <li className="w-fit h-fit hidden md:flex items-center justify-center">
                     <img src={homeBg} alt="background" className="absolute h-12 z-0" />
                     <div className="relative z-10 flex items-center gap-1  lg:!px-4 ">
                         <img src={logo} alt="Marvel Rivals Logo" className="h-8 lg:h-14 w-auto" />

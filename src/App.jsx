@@ -18,9 +18,9 @@ function App() {
 
           <div className='flex flex-row items-start gap-1'>
             <Carousel />
-            <img src={leftBtn} alt='Left chevron button' />
+            <img src={leftBtn} alt='Left chevron button' className='h-4 md:h-fit' />
           </div>
-          <img src={mrLogo} alt='Marvel Rivals Logo' className='w-[200px] h-[90px] lg:w-[255px] lg:h-[108px] !mr-10' />
+          <img src={mrLogo} alt='Marvel Rivals Logo' className='w-[60px] h-[70px] md:w-[200px] md:h-[90px] lg:w-[255px] lg:h-[108px] !mr-10' />
         </div>
         
         <Event />

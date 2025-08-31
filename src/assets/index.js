@@ -30,6 +30,7 @@ import calendar from './images/calendar.svg'
 import clock from './images/clock.svg'
 
 import leftBtn from './images/leftBtn.svg'
+import rightBtn from './images/rightBtn.svg'
 import chat from './images/chat.png'
 
 export {
@@ -53,5 +54,6 @@ export {
     clock,
     mrLogo,
     leftBtn,
+    rightBtn,
     chat
 }
